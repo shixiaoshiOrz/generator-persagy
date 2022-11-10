@@ -1,0 +1,27 @@
+{
+  "name": "generator-persagy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "generators/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect",
+    "start": "webpack --serve"
+  },
+  "keywords": [
+    "eslint",
+    "yeoman-generator",
+    "generator-persagy"
+  ],
+  "files": [
+    "generators"
+  ],
+  "peerDependencies": {
+    "yo": ">=4.0.0"
+  },
+  "author": "gcshi",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^5.7.0"
+  }
+}
